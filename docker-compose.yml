@@ -4,5 +4,5 @@ services:
   web:
     build: .
     ports:
-      - "80:5000"
+      - "7777:7777"  # Map port 7777 on the VPS to port 7777 inside the container
     restart: always
